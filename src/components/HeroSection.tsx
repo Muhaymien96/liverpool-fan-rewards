@@ -1,6 +1,8 @@
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-liverpool.jpg";
 
+const CONTRACT_ADDRESS = "7xKXtg2CW9GELp3hnBv1FXx8CG3ztFn7TnedWH5QEPs";
+
 const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
@@ -30,6 +32,13 @@ const HeroSection = () => {
         <p className="text-lg md:text-xl text-white/80 mb-12 max-w-3xl mx-auto leading-relaxed">
           Watch Liverpool matches, join livestreams, predict scores, and win rewards from creator fees.
         </p>
+        
+        <div className="mb-8 p-4 bg-white/10 backdrop-blur-sm rounded-lg border border-white/20 max-w-2xl mx-auto">
+          <p className="text-white/90 text-sm mb-2 font-medium">Contract Address (CA):</p>
+          <p className="text-white font-mono text-xs md:text-sm break-all bg-black/20 p-2 rounded border">
+            {CONTRACT_ADDRESS}
+          </p>
+        </div>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Button variant="community" size="lg" className="text-lg px-8 py-4 h-auto" asChild>
