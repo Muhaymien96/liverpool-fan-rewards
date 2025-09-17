@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-liverpool.jpg";
 
-const CONTRACT_ADDRESS = "7xKXtg2CW9GELp3hnBv1FXx8CG3ztFn7TnedWH5QEPs";
+const CONTRACT_ADDRESS = "8vSxyjr1tCkxYdvqG8T1vR3aNAoxZoBSPxBfpUHipump";
 
 const HeroSection = () => {
   return (

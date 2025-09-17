@@ -4,7 +4,7 @@ import { Copy, ExternalLink } from "lucide-react";
 import { useState } from "react";
 import { useToast } from "@/components/ui/use-toast";
 
-const CONTRACT_ADDRESS = "7xKXtg2CW9GELp3hnBv1FXx8CG3ztFn7TnedWH5QEPs";
+const CONTRACT_ADDRESS = "8vSxyjr1tCkxYdvqG8T1vR3aNAoxZoBSPxBfpUHipump";
 
 const ContractAddressSection = () => {
   const [copied, setCopied] = useState(false);
