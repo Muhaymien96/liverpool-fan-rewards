@@ -6,7 +6,7 @@ const rules = [
   "One entry per person per match", 
   "Predictions close 5 minutes before kickoff",
   "Winners announced live + on Twitter",
-  "Rewards distributed within 24 hours"
+  "Rewards distributed shortly after the game is complete"
 ];
 
 const RulesSection = () => {

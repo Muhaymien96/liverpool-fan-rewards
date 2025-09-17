@@ -4,32 +4,46 @@ import { Button } from "@/components/ui/button";
 
 const fixtures = [
   {
-    opponent: "Manchester City",
-    date: "2024-01-20",
-    time: "17:30",
+    opponent: "Bournemouth",
+    date: "2025-01-18",
+    time: "15:00",
     competition: "Premier League",
     location: "Anfield"
   },
   {
-    opponent: "Chelsea", 
-    date: "2024-01-27",
-    time: "15:00",
+    opponent: "Nottingham Forest", 
+    date: "2025-01-25",
+    time: "17:30",
     competition: "Premier League",
-    location: "Stamford Bridge"
+    location: "City Ground"
+  },
+  {
+    opponent: "Brighton & Hove Albion",
+    date: "2025-02-01",
+    time: "14:00", 
+    competition: "Premier League",
+    location: "Anfield"
+  },
+  {
+    opponent: "Manchester United",
+    date: "2025-02-08",
+    time: "16:30",
+    competition: "Premier League", 
+    location: "Old Trafford"
   },
   {
     opponent: "Arsenal",
-    date: "2024-02-03",
-    time: "16:30", 
-    competition: "Premier League",
+    date: "2025-02-15",
+    time: "12:30",
+    competition: "Premier League", 
     location: "Anfield"
   },
   {
-    opponent: "Newcastle United",
-    date: "2024-02-10",
-    time: "14:00",
+    opponent: "Everton",
+    date: "2025-02-22",
+    time: "17:30",
     competition: "Premier League", 
-    location: "St. James' Park"
+    location: "Goodison Park"
   }
 ];
 
