@@ -17,8 +17,8 @@ const socialLinks = [
   {
     name: "Twitter/X",
     icon: Twitter,
-    href: "#",
-    description: "Follow for updates"
+    href: "https://x.com/i/communities/1968229130098413572",
+    description: "Join community for updates."
   }
 ];
 

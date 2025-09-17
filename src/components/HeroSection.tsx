@@ -19,7 +19,7 @@ const HeroSection = () => {
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
           Liverpool Fan Coin
           <span className="block text-2xl md:text-4xl lg:text-5xl text-white/90 font-medium mt-2">
-            (LFC)
+            ($LFC)
           </span>
         </h1>
         

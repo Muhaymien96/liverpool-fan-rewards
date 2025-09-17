@@ -4,6 +4,7 @@ import { CheckCircle } from "lucide-react";
 const rules = [
   "Must hold $LFC to be eligible",
   "One entry per person per match", 
+  "Predictions must be made on X/Twitter in the $LFC community",
   "Predictions close 5 minutes before kickoff",
   "Winners announced live + on Twitter",
   "Rewards distributed shortly after the game is complete"

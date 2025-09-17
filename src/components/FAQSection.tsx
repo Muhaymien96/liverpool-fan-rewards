@@ -11,12 +11,16 @@ const faqs = [
     answer: "Yes! You must hold Liverpool Fan Coin ($LFC) tokens to be eligible for any games, predictions, or raffles. This ensures our community rewards go to true supporters and holders."
   },
   {
+    question: "Will you get Dex?",
+    answer: "Yes. Dex will be paid directly from creator fees as this is a community driven project and self-sustaining."
+  },
+  {
     question: "How do I enter predictions and games?",
-    answer: "Join our live matchday streams before each Liverpool game. During the stream, we'll announce how to submit your predictions. Make sure to get them in before the 5-minute cutoff!"
+    answer: "Join our live matchday streams before each Liverpool game. Predictions are made on X/Twitter. Make sure to get them in before the 5-minute cutoff and include your SOL wallet address!"
   },
   {
     question: "Where are rewards sent?",
-    answer: "All rewards are distributed directly to the wallet address that holds your $LFC tokens. Payments are made within 24 hours of each match, typically in $LFC or SOL depending on the prize pool."
+    answer: "All rewards are distributed directly to the wallet address that holds your $LFC tokens. Payments are made within an hour of each match,  amount depends on creator fees accumulated at that point."
   },
   {
     question: "What if I miss the stream?",
