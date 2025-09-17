@@ -19,18 +19,6 @@ const socialLinks = [
     icon: Twitter,
     href: "#",
     description: "Follow for updates"
-  },
-  {
-    name: "Telegram",
-    icon: MessageCircle,
-    href: "#",
-    description: "Join the chat"
-  },
-  {
-    name: "Discord",
-    icon: Users,
-    href: "#",
-    description: "Community hub"
   }
 ];
 
@@ -47,7 +35,7 @@ const Footer = () => {
           </p>
         </div>
         
-        <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-6 mb-12">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
           {socialLinks.map((link) => (
             <Button
               key={link.name}
